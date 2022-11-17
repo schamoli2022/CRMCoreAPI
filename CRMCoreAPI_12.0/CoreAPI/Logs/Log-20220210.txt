@@ -1,0 +1,337 @@
+2022-02-10T21:05:27.9362008+05:30 8000001c-0002-fc00-b63f-84710c7967bb [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2022-02-10T21:06:33.1248244+05:30 8000000d-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:06:57.9914419+05:30 8000000f-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:08:17.6611720+05:30 80000015-0003-f800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:08:34.1755041+05:30 80000017-0003-f800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:10:21.8813566+05:30 8000001d-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:11:37.9394662+05:30 8000001f-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:11:46.5048629+05:30 80000021-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:12:28.5563581+05:30 80000023-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:14:20.3358748+05:30 80000025-0001-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:17:59.6777345+05:30 80000014-0000-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:18:46.4126525+05:30 80000016-0000-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:27:11.7751328+05:30 80000007-0000-f200-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:29:42.9238469+05:30 8000000f-0001-f700-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:31:31.5547773+05:30 80000011-0001-f700-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:32:15.8354467+05:30 80000013-0001-f700-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:34:59.9380998+05:30 80000016-0003-f200-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:36:09.4839299+05:30 80000018-0003-f200-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:38:51.2189679+05:30 80000063-0001-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T21:39:10.6021457+05:30 80000065-0001-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:07:19.4584343+05:30 80000013-0002-f800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:10:13.5262715+05:30 80000029-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:11:43.9639947+05:30 8000002b-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:13:09.1039367+05:30 8000002d-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:15:23.0571425+05:30 80000040-0002-f600-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:16:19.6630697+05:30 80000042-0002-f600-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:21:32.9778716+05:30 8000002c-0003-f200-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:24:33.9729991+05:30 8000004b-0002-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:25:33.2105793+05:30 8000004d-0002-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:29:55.5730201+05:30 80000015-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:30:05.4864976+05:30 80000017-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:31:51.4233805+05:30 80000019-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:33:52.2392423+05:30 8000001c-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:34:04.6093932+05:30 8000001e-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:36:25.2126936+05:30 80000019-0001-ee00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:38:15.8730222+05:30 8000001b-0001-ee00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:38:37.0269387+05:30 8000001d-0001-ee00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:39:40.0099089+05:30 8000001f-0001-ee00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:43:19.9214442+05:30 80000034-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:43:29.8579681+05:30 80000036-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:44:45.7590872+05:30 80000038-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:46:13.7198804+05:30 8000003a-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:47:41.3384615+05:30 8000003c-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:48:29.3668891+05:30 8000003e-0001-f000-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:51:46.3808981+05:30 80000047-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:53:42.7498914+05:30 80000049-0000-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:55:58.2509621+05:30 80000013-0001-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:56:57.5480755+05:30 80000015-0001-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-10T23:57:43.9315631+05:30 80000017-0001-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: IDX12709: CanReadToken() returned false. JWT is not well formed: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at CRMCoreAPI.Filters.AuthenticationMiddleware.Invoke(HttpContext context) in C:\Users\rkumar\Source\Workspaces\Workspace\CRMCoreAPI\CRMCoreAPI\CoreAPI\Filters\BasicAuthenticationHandler.cs:line 33
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
