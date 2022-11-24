@@ -1,0 +1,3142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CRMCoreAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CRMCoreAPI.Controllers.AccountController.AccountListing(System.String,System.String,System.String,System.Int32,System.DateTime,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.BrandController.BrandListing(System.String,System.String,System.String,System.Int32,System.Int32,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="userid"></param>
+            <param name="companyID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.BrandController.PostBrand(System.String)">
+            <summary>
+            This method is used for saving the Deal data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CampaignController.CampaignListing(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Providing listing for campaigns
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="campaignName"></param>
+            <param name="campaignOwnerIds"></param>
+            <param name="campaignType"></param>
+            date from column is used as proposed date from 
+            <param name="campaignDateFrom"></param>
+            date to column is used as propoed date to
+            <param name="campaignDateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CampaignController.PostCampaignGet(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CampaignController.PostCampaign(System.String)">
+            <summary>
+            This method is used for saving the Purchase order data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetDDLData(System.Nullable{System.Int64},System.String,System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="moduleName"></param>
+            <param name="type"></param>
+            <param name="search"></param>
+            <param name="refId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetDDLDataBySubModule(System.Nullable{System.Int64},System.String,System.String,System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleName"></param>
+            <param name="type"></param>
+            <param name="search"></param>
+            <param name="refId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.CommonDeleteData(System.String)">
+            <summary>
+             Common Delete method to delete the data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetEmailDetail(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.SearchCriteriaListing(System.String,System.String)">
+            <summary>
+            Get Search criteria list for a user with resptect to module and sub module
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetFieldName(System.String,System.String,System.String)">
+            <summary>
+            Get field name on basis of module and submodule
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="reqFrom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetOperatorList(System.String,System.Nullable{System.Int64})">
+            <summary>
+            Get operator list with respet to data type
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="dataType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.SaveSearchFilter(System.String)">
+            <summary>
+            Save search filter data with resptect to user id to search the data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetSearchCriteriaById(System.Int64,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            get the search criteria by id
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="isDelete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.SaveRuleFilter(System.String)">
+            <summary>
+            Save rule filter resptect to module and sub-module id to search the duplicate data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetRuleCriteria(System.String,System.String)">
+            <summary>
+            Get the rule criteria by module name and sub module code
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CommonController.GetDuplicateLeads(System.String,System.String,System.String)">
+            <summary>
+            Get the duplicate records by module name and sub module code
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ContactController.ContactListing(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="First_Name"></param>
+            <param name="Last_Name"></param>
+            <param name="job_title"></param>
+            <param name="email_id"></param>
+            <param name="business_phone"></param>
+            <param name="mobile_phone"></param>
+            <param name="fax"></param>
+            <param name="preferred_contact"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            id is used as a source id to get contact id for particular module like is mapped with lead, deal etc.
+            <param name="id"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ContactController.getSingleContact(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ContractController.ContractListing(System.String,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ContractController.PostContractGet(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ContractController.PostContract(System.String)">
+            <summary>
+            This method is used for saving the Purchase order data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.CRMDashboardWidgetsController.#ctor(CRMCoreAPI.ServiceInterface.IWidgetsService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="widget"></param>  
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.DealController.DealListing(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Dealname"></param>
+            <param name="statusID"></param>
+            <param name="createdBy"></param>
+            <param name="createdAt"></param>
+            <param name="closingDate"></param>
+            <param name="companyID"></param>
+            <param name="id">id is used as sourceId to get deals accordingly which are mapped to another modules 
+            with respect to submoduleCode variable</param>
+            <param name="subModuleCode">submoduleCode pointed to the particular module 
+            like lead, deal, purchase order etc </param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pagesize"></param>
+            <param name="pagenumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.DealController.PostDeal(System.String,System.String)">
+            <summary>
+            This method is used for saving the Deal
+            also validation method is called.
+            </summary>
+            <param name="DeallData">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.DealController.PostDeal(System.String)">
+            <summary>
+            This method is used for saving the Deal data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ForecastController.#ctor(CRMCoreAPI.Services.IForecastService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ForecastController.Forecast(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Byte},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Get Quotation listing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ForecastController.PostForecast(System.String)">
+            <summary>
+            This method is used for saving the lead
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.GoodInwardsController.getPurchaseOrderProductDetails(System.Nullable{System.Int64},System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="subModuleCode"></param>
+            <param name="purchaseOrderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.InvoiceController.#ctor(CRMCoreAPI.Service.IInvoiceService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.InvoiceController.InvoiceListing(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            id (or sourceId) used to get sales order listing according to the mapping with respect to sub module
+            <param name="id"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ItemController.CheckItemQuantity(System.Int64)">
+            <summary>
+            Check item quantity its available in stock or not
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="itemId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.Get(System.Nullable{System.Int64},System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.Post(System.String)">
+            <summary>
+            This method is used for saving the lead
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.ListLayoutFields(System.String,System.String)">
+            <summary>
+            Manage listing layout and get available and selected fields
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.View(System.Nullable{System.Int64},System.String,System.String)">
+            <summary>
+            This method is used to view the custom fields form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.GetSubModuleList(System.Nullable{System.Int64},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Get Sub module list on basis of module id for manage the layout
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LayoutController.GetModuleList">
+            <summary>
+            Get module list  for manage the layout
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Controllers.LeadController.LeadListing(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Byte,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Char,System.String,System.Boolean)" -->
+        <member name="M:CRMCoreAPI.Controllers.LeadController.PostLead(System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LeadController.PostLead(System.String)">
+            <summary>
+            This method is used for saving the lead
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LeadController.ListLayoutFields(System.String,System.String)">
+            <summary>
+            Manage listing layout and get available and selected fields
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.LeadController.CloseLead(System.String)">
+            <summary>
+             close lead
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Controllers.PriceBookController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PriceBookController.#ctor(CRMCoreAPI.Services.IPriceBookService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PriceBookController.PriceBookListing(System.Nullable{System.Int64},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PriceBookController.PostPriceBook(System.String,System.String)">
+            <summary>
+            This method is used for saving the PriceBook
+            also validation method is called.
+            </summary>
+            <param name="PriceBooklData">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PriceBookController.PostPriceBook(System.String)">
+            <summary>
+            This method is used for saving the Purchase order data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PriceBookController.PriceBookListingForProduct(System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Get Price book list for a product
+            </summary>
+            <param name="search"></param>
+            <param name="refId"></param>
+            <param name="productId"></param>
+            <param name="CompanyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Controllers.ProductController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.#ctor(CRMCoreAPI.Services.IProductService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.ProductListing(System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            id is used as source id to get product which are exist under the particular category like lead, deal etc.
+            <param name="id"></param>
+            <param name="subModuleCode"></param>
+            <param name="statusId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.PostProductFields(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.PostProduct(System.String)">
+            <summary>
+            This method is used for saving the Product data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.ProductTypeListing(System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            Get Product Type Listing
+            </summary>
+            <param name="productTypeName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.SaveProductType(System.String)">
+            <summary>
+            Save Product Type
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.ProductController.GetTaxByProduct(System.String,System.String,System.String,System.Int64,System.Int64)">
+            <summary>
+            Get tax by product or country or state or zipcode
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="state"></param>
+            <param name="zipcode"></param>
+            <param name="countryId"></param>
+            <param name="projectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PurchaseOrderController.#ctor(CRMCoreAPI.Services.IPurchaseOrderService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="puchaseServices"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PurchaseOrderController.PurchaseOrderListing(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="accountName"></param>
+            <param name="companyName"></param>
+            <param name="leadOwners"></param>
+            <param name="dealName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PurchaseOrderController.PostPurchaseOrders(System.String,System.String)">
+            <summary>
+            This method is used for saving the PurchaseOrders
+            also validation method is called.
+            </summary>
+            <param name="PurchaseOrderslData">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.PurchaseOrderController.approveRejectPurchaseOrder(System.String)">
+            <summary>
+            This method is used for saving the Purchase order data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Controllers.QuotationController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.QuotationController.#ctor(CRMCoreAPI.Services.IQuotationService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.QuotationController.QuotesListing(System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <param name="title"></param>
+            <param name="quotationNumber"></param>
+            id (sourceId) is used for mapping. By this id we find those quotation which are relate to this source id
+            <param name="id"></param>
+            submodule is used with source id to identify submodule of source id.
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="statuses"></param>
+            <param name="quotationTypeCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.QuotationController.PostQuotation(System.String)">
+            <summary>
+            This method is used for saving the quotation data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.QuotationController.ConvertOrder(System.String)">
+            <summary>
+            Convert order item to other
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.QuotationController.ConvertQuoteToProject(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.SalesOrderController.#ctor(CRMCoreAPI.Service.ISalesOrderService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.SalesOrderController.SalesOrderListing(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            id (or sourceId) used to get sales order listing according to the mapping with respect to sub module
+            <param name="id"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.StageController.StageListing(System.String,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.StageController.PostStageFields(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.StageController.PostStage(System.String)">
+            <summary>
+            This method is used for saving the Purchase order data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TaxController.SaveTaxCode(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TaxController.SaveTax(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TaxController.GetTaxByCodeId(System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TaxController.GetAllTaxCode(System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Controllers.TerritoryController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TerritoryController.#ctor(CRMCoreAPI.Services.ITerritoryService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TerritoryController.TerritoryListing(System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Name"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TerritoryController.PostTerritory(System.String,System.String)">
+            <summary>
+            This method is used for saving the Territory
+            also validation method is called.
+            </summary>
+            <param name="TerritorylData">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TerritoryController.PostTerritory(System.String)">
+            <summary>
+            This method is used for saving the Territory data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TrophiesAndBadgesController.#ctor(CRMCoreAPI.Services.ITrophiesAndBadgesService,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            
+            </summary>
+            <param name="trophiesAndBadgesService"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TrophiesAndBadgesController.PostTrophiesAndBadges(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.TrophiesAndBadgesController.PostTrophiesAndBadges(System.String)">
+            <summary>
+            This method is used for saving the TrophiesAndBadges data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.UnifiedController.SaveCallOriginateCall(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="cookie"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.UnifiedController.getExtensionBasedOnStatus(System.String)">
+            <summary>
+            
+            </summary>
+            exntension status like Idle, OnHold, Unavailable etc
+            <param name="extensionStatus"></param>
+            its logged in user id
+            <param name="userId"></param>
+            its logged in company id
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.UnifiedController.getRecentcalls(System.Nullable{System.Int64},System.Nullable{System.Int64},System.Nullable{System.Int64},System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <param name="companyId"></param>
+            <returns>return most recent calls data in JSON based on passed userid and company Id </returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.UnifiedController.GetNexmoList(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <param name="companyId"></param>
+            <returns>return most recent calls data in JSON based on passed userid and company Id </returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.UnifiedController.GetCallDetails(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="logId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.VendorController.PostVendor(System.String,System.String)">
+            <summary>
+            This method is used for saving the Vendor
+            also validation method is called.
+            </summary>
+            <param name="VendorlData">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Controllers.VendorController.PostVendor(System.String)">
+            <summary>
+            This method is used for saving the Vendor data
+            also validation method is called.
+            </summary>
+            <param name="postString">Json string is passed in this parameter</param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Filters.CustomAuthorizeFilter.OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)">
+            <summary>
+            Overload OnAuthorization
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="T:CRMCoreAPI.Filters.CustomClaimTypes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IAccountService">
+            <summary>
+            Default Account Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IAccountService.GetAccounts(System.Int64,System.Int64,System.String,System.String,System.String,System.Int32,System.DateTime,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            Get All Account listing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IActivityService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IActivityService.getActivities(System.Int64,System.Int64,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="moduleId"></param>
+            <param name="sourceId"></param>
+            <param name="sourceTable"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IActivityService.Addtask(System.String,System.Int64,System.Int64)">
+            <summary>
+            add task api for save Task in Activity Tab
+            </summary>
+            <param name="addtask"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IAttachmentService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IAttachmentService.GetAttachment(System.Int32,System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="sourceId"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserID"></param>
+            <param name="moduleCOde"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.ICampaignService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.GetCampaigns(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            This method is used to get listing of campaigns
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="campaignName"></param>
+            <param name="campaignOwnerIds"></param>
+            <param name="campaignType"></param>
+            <param name="campaignDateFrom"></param>
+            <param name="campaignDateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.GetCustomFieldForCampaign(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Used to get custom field that is in custom field table
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.SaveCampaign(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="campaignData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.SaveConvertToLeadCampaign(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for Convert to Lead From Campaign in Contact Tab
+            </summary>
+            <param name="campaignData"></param>
+            <returns>Returns the fields in json string format</returns>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="campaignData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICampaignService.SaveGroupContactCampaign(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for Add Group Contact Name
+            </summary>
+            <param name="groupData"></param>
+            <returns>Returns the fields in json string format</returns>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.ICommonService">
+            <summary>
+            Default Layout Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetDDLData(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.CommonDeleteData(System.String,System.Int64,System.Int64)">
+            <summary>
+             Common Delete method to delete the data 
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.ICommonService.GetEmailData(System.Nullable{System.Int64})" -->
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.ICommonService.SendEmailData(System.String,System.Int64,System.Int64)" -->
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetEmailLogById(System.Nullable{System.Int64},System.Int64,System.Int64)">
+            <summary>
+            Common method for fetching email log by Id
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetEmails(System.Nullable{System.Int64},System.String,System.Int64,System.Int64,System.Nullable{System.Int64},System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="id"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetSearchCriteriaListing(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Get Search criteria list for a user with resptect to module and sub module
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetFieldName(System.Int64,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            Get field name on basis of module and submodule
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetOperatorList(System.Int64,System.Int64,System.String,System.Nullable{System.Int64})">
+            <summary>
+            Get operator list with respet to data type
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="dataType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.SaveSearchFilter(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save search filter data with resptect to user id to search the data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetSearchCriteriaById(System.Int64,System.Int64,System.Int64,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            get the search criteria by id
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="isDelete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ICommonService.GetEncryptedPassword(System.Int64,System.String)">
+            <summary>
+            For fetching encrypted password
+            </summary>
+            <param name="companyId"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IContractService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IContractService.GetContracts(System.Int64,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IContractService.GetCustomFieldForContract(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Used to get custom field that is in custom field table
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IContractService.SaveContract(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="contractData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IContractService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="contractData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IDealService">
+            <summary>
+            Default Account Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IDealService.GetDeal(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Get All Deal listing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IDealService.GetcustomFieldDeal(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IDealService.SaveDeal(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="DealData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IDevicesService">
+            <summary>
+            Default Device Interface
+            </summary>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IForecastService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IForecastService.GetForecast(System.Nullable{System.Int32},System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Nullable{System.Byte},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IForecastService.GetcustomFieldForecast(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IForecastService.SaveForecast(System.String,System.Int64,System.Int64)">
+            <summary>
+            Implementation of save lead
+            </summary>
+            <param name="forecastData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IItemService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IItemService.CheckItemQuantity(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Check item quantity its available in stock or not
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="itemId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.ILayoutService">
+            <summary>
+            Default Layout Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.GetLayout(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.SaveFieldData(System.String,System.Int64,System.Int64)">
+            <summary>
+            Implementation of save lead
+            </summary>
+            <param name="leadData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.GetListLayoutFields(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+             This method is used for fetching the available and selected custom fields for list layout
+             basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.SaveListLayout(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save list layout into TALYGEN_CUSTOM_FIELD_COMPANY_VIEWPORT table
+            </summary>
+            <param name="postData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.SavePageLayout(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save Page layout into TALYGEN_CUSTOM_FIELD_mapping table
+            </summary>
+            <param name="postData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.View(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used to view the custom fields form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.GetSubModuleList(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Get Sub module list on basis of module id for manage the layout
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILayoutService.GetModuleList(System.Int64,System.Int64)">
+            <summary>
+             Get module list  for manage the layout
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.ILeadService">
+            <summary>
+            Default Lead Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.GetLeads(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Byte,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Char,System.String,System.Boolean)">
+            <summary>
+            Implementation of Lead listing method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="leadData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.SaveLead(System.String,System.Int64,System.Int64)">
+            <summary>
+            Implementation of save lead
+            </summary>
+            <param name="leadData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.GetcustomFieldLead(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.GetListLayoutFields(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+             This method is used for fetching the available and selected custom fields for list layout
+             basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.convertLeadToAccount(System.String,System.Int64,System.Int64)">
+            <summary>
+            Converts lead to the account and created a mapping of contacts
+            </summary>
+            <param name="postData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ILeadService.CloseLead(System.String,System.Int64,System.Int64)">
+            <summary>
+            close lead
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IPriceBookService">
+            <summary>
+            Get product listing
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPriceBookService.GetPriceBook(System.Nullable{System.Int64},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.Int64,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPriceBookService.GetcustomFieldPriceBook(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+              /// <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPriceBookService.SavePriceBook(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="priceBookData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPriceBookService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="priceBookData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPriceBookService.GetPriceBookListingForProduct(System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Get Price book list for a product
+            </summary>
+            <param name="search"></param>
+            <param name="refId"></param>
+            <param name="productId"></param>
+            <param name="CompanyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IProductService">
+            <summary>
+            Get product listing
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IProductService.GetProducts(System.String,System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sourceId"></param>
+            <param name="subModuleCode"></param>
+            <param name="statusId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IProductService.GetcustomFieldProduct(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.IProductService.SaveProduct(System.String,System.Int64,System.Int64)" -->
+        <member name="M:CRMCoreAPI.Services.IProductService.SaveProductType(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save Product Type
+            </summary>
+            <param name="postData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IProductService.GetTaxByProduct(System.Int64,System.Int64,System.String,System.String,System.String,System.Int64,System.Int64)">
+            <summary>
+            Get tax by product or country or state or zipcode
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="state"></param>
+            <param name="zipcode"></param>
+            <param name="countryId"></param>
+            <param name="projectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPurchaseOrderService.GetPurchaseOrders(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="accountName"></param>
+            <param name="companyName"></param>
+            <param name="leadOwners"></param>
+            <param name="dealName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPurchaseOrderService.GetcustomFieldPurchaseOrders(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IPurchaseOrderService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="purchaseOrderData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IQuotationService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.GetQuotes(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Nullable{System.Int64},System.String)">
+            <summary>
+            this function return the quotation listing  on the basis of passed parameters
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="startDate"></param>
+            <param name="endDate"></param>
+            <param name="title"></param>
+            <param name="quotationNumber"></param>
+            sourceId is used for mapping. By this id we find those quotation which are relate to this source id
+            <param name="sourceId"></param>
+            submodule is used with source id to identify submodule of source id.
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="statuses"></param>
+            <param name="quotationTypeCode"></param>
+            <returns>return JSON string </returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.GetcustomFieldQuotation(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            Return the custom fields of table to bind in form on the basis of passed parameters those companyId, moduleName, SubmoduleCode
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>return JSON String  as data</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.SaveQuotation(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="quotationData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="quotationData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.ConvertOrder(System.String,System.Int64,System.Int64)">
+            <summary>
+            Convert order item to other
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IQuotationService.QuoteToProject(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.ITerritoryService">
+            <summary>
+            Get product listing
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ITerritoryService.GetTerritory(System.String,System.String,System.String,System.Nullable{System.Int32},System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="TerritoryName"></param>
+            <param name="CompanyID"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ITerritoryService.GetcustomFieldTerritory(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+              /// <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.ITerritoryService.SaveTerritory(System.String,System.Int64,System.Int64)" -->
+        <member name="M:CRMCoreAPI.Services.ITrophiesAndBadgesService.getTrohpiesOrBadges(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="trophyOrBadgeName"></param>
+            <param name="action"></param>
+            TYPE - there is only two type type exist in datatvle that in TROPHY and BADGE 
+            if you pass TROPHY or BADGE then it give data accordingly. 
+            <param name="type"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ITrophiesAndBadgesService.GetcustomFieldgetTrohpiesOrBadges(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ITrophiesAndBadgesService.SaveTrophiesAndBadges(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="TrophiesAndBadges"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IUnifiedService.getExtensionBasedOnStatus(System.String,System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            exntension status like Idle, OnHold, Unavailable etc
+            <param name="extensionStatus"></param>
+            its logged in user id
+            <param name="userId"></param>
+            its logged in company id
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IUnifiedService.GetCallDetails(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="logId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IUnifiedService.WebHookData(System.Nullable{System.Int64},System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="VonageId"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.IUserService">
+            <summary>
+            Default Account Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IUserService.GetAllRoles_Privilege_Allowed(System.Int64,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            Get All Account listing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.IVendorService.GetcustomFieldVendor(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.IVendorService.SaveVendor(System.String,System.Int64,System.Int64)" -->
+        <member name="M:CRMCoreAPI.Services.AccountService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.AccountService.GetAccounts(System.Int64,System.Int64,System.String,System.String,System.String,System.Int32,System.DateTime,System.String,System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.BrandService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.BrandService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.BrandService.GetBrands(System.Int64,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="CompanyID"></param>
+            <param name="userid"></param>
+            <param name="brandname"></param>
+            <param name="brandid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.BrandService.SaveBrand(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CampaignService.GetCampaigns(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Return Campaign list in JSON Data
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="campaignName"></param>
+            <param name="campaignOwnerIds"></param>
+            <param name="campaignType"></param>
+            date from column is used as proposed date from 
+            <param name="campaignDateFrom"></param>
+            date to column is used as propoed date to
+            <param name="campaignDateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CampaignService.GetCustomFieldForCampaign(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CampaignService.SaveCampaign(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CampaignService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in purchaseOrderData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="campaignData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="T:CRMCoreAPI.Services.CommonService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetDDLData(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetDDLDataBySubModule(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.CommonDeleteData(System.String,System.Int64,System.Int64)">
+            <summary>
+             Common Delete method to delete the data 
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetTimelineData(System.Int64,System.Int64,System.Int64,System.String)">
+            <summary>
+            Get TimeLine data
+            </summary>
+            <param name="path"></param>
+            <param name="attachmentType"></param>
+            <param name="sourceId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="fileName"></param>
+            <param name="userId"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.SaveAttachment(System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int64,System.Int64,System.String)">
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetSearchCriteriaListing(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Get Search criteria list for a user with resptect to module and sub module
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetFieldName(System.Int64,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            Get field name on basis of module and submodule
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetOperatorList(System.Int64,System.Int64,System.String,System.Nullable{System.Int64})">
+            <summary>
+            Get operator list with respet to data type
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="dataType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.SaveSearchFilter(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save search filter data with resptect to user id to search the data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetSearchCriteriaById(System.Int64,System.Int64,System.Int64,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            get the search criteria by id
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.SaveRuleFilter(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save rule filter resptect to module and sub-module id to search the duplicate data
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetRuleCriteria(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Get the rule criteria by module name and sub module code
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.CommonService.GetDuplicateLeads(System.Int64,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            GGet the duplicate records by module name and sub module code
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ContractService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ContractService.GetContracts(System.Int64,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="contract_Name"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="userId"></param>
+            <param name="clientIds"></param>
+            <param name="ProductIds"></param>
+            <param name="contractIds"></param>
+            <param name="companyName"></param>
+            <param name="contractName"></param>
+            <param name="billToClientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ContractService.GetCustomFieldForContract(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ContractService.SaveContract(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ContractService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in contractData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="contractData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.DealService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.DealService.GetcustomFieldDeal(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.DealService.SaveDeal(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.Devices">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.Devices.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.Devices.GetDevices(System.Int64,System.Int64,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ForecastServices.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ForecastServices.GetForecast(System.Nullable{System.Int32},System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Nullable{System.Byte},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ForecastServices.SaveForecast(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.GoodInwardsService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.InvoiceService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.InvoiceService.GetInvoice(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            sourceId used to get sales order listing according to the mapping 
+            with respect to sub module
+            <param name="sourceId"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ItemService.CheckItemQuantity(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Check item quantity its available in stock or not
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="itemId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.LayoutService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.GetLayout(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.GetListLayoutFields(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+             This method is used for fetching the available and selected custom fields for list layout
+             basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.SaveFieldData(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.SaveListLayout(System.String,System.Int64,System.Int64)">
+            <summary>
+             Save list layout into TALYGEN_CUSTOM_FIELD_COMPANY_VIEWPORT table
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.SavePageLayout(System.String,System.Int64,System.Int64)">
+            <summary>
+             Save Page layout into TALYGEN_CUSTOM_FIELD_mapping table
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.View(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used to view the custom fields form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.GetSubModuleList(System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+             Get Sub module list on basis of module id for manage the layout
+            </summary>
+            <param name="id"></param>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LayoutService.GetModuleList(System.Int64,System.Int64)">
+            <summary>
+             Get module list  for manage the layout
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.LeadService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.AddLead(CRMCoreAPI.Services.Lead)">
+            <summary>
+            
+            </summary>
+            <param name="lead"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.DeleteLead(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="LeadId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.GetLead(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="LeadId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.GetcustomFieldLead(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.GetListLayoutFields(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+             This method is used for fetching the available and selected custom fields for list layout
+             basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.LeadService.GetLeads(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Byte,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Char,System.String,System.Boolean)" -->
+        <member name="M:CRMCoreAPI.Services.LeadService.UpdateLead(CRMCoreAPI.Services.Lead)">
+            <summary>
+            
+            </summary>
+            <param name="lead"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in leadData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="leadData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.SaveLead(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.convertLeadToAccount(System.String,System.Int64,System.Int64)">
+            <summary>
+             Save Page layout into TALYGEN_CUSTOM_FIELD_mapping table
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.LeadService.CloseLead(System.String,System.Int64,System.Int64)">
+            <summary>
+            Close Lead
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="P:CRMCoreAPI.Services.CRMData.sqlMetaData">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CRMCoreAPI.Services.CRMData.fieldMetadata">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.NoteServices.saveNote(System.String,System.Int64,System.Int64)">
+            <summary>
+            save the note and return created note id with the success message
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.GetPriceBook(System.Nullable{System.Int64},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32},System.Int64,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.SavePricebookForMapping(System.String,System.Int64,System.Int64)">
+                    
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.SavePriceBook(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in priceBookData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="priceBookData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PriceBookService.GetPriceBookListingForProduct(System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Int64,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+             Get Price book list for a product
+            </summary>
+            <param name="search"></param>
+            <param name="refId"></param>
+            <param name="productId"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.GetProducts(System.String,System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="productName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.GetcustomFieldProduct(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode. 
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.SaveProduct(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.SaveProductType(System.String,System.Int64,System.Int64)">
+            <summary>
+            Save Proct type into database
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.ProductService.GetTaxByProduct(System.Int64,System.Int64,System.String,System.String,System.String,System.Int64,System.Int64)">
+            <summary>
+            Get tax by product or country or state or zipcode
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="state"></param>
+            <param name="zipcode"></param>
+            <param name="countryId"></param>
+            <param name="projectId"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:CRMCoreAPI.Services.PurchaseOrderService.configuration" -->
+        <!-- Badly formed XML comment ignored for member "M:CRMCoreAPI.Services.PurchaseOrderService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)" -->
+        <member name="M:CRMCoreAPI.Services.PurchaseOrderService.GetPurchaseOrders(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="statusIDs"></param>
+            <param name="accountName"></param>
+            <param name="companyName"></param>
+            <param name="leadOwners"></param>
+            <param name="dealName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.PurchaseOrderService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in purchaseOrderData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="purchaseOrderData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.GetQuotes(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String,System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.GetcustomFieldQuotation(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            This method is used for fetch the custom fields to bind with ADD FORM 
+            On the basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.SaveQuotation(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.ConvertOrder(System.String,System.Int64,System.Int64)">
+            <summary>
+            Convert order item to other
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.QuotationService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in quoatationData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="quotationData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.SalesOrderService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.SalesOrderService.GetSalesOrder(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            sourceId used to get sales order listing according to the mapping 
+            with respect to sub module
+            <param name="sourceId"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.GetStages(System.Int64,System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            GET STAGE LISTING
+            </summary>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.GetcustomFieldStage(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetch the custom fields to bind with ADD FORM 
+            On the basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.SaveStage(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.ValidateData(System.String)">
+            <summary>
+            This method is used for performing the validation on 
+            the data passed in stageData parameter and return appropriate 
+            response in json format.
+            </summary>
+            <param name="stageData">Json string is passed in this parameter 
+             and further manipulation is performed for validating the data.
+             </param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.StageService.updateDealStage(System.String,System.Int64,System.Int64)">
+            <summary>
+            this function used to update stage for deal and also done insertion in stage mapping table
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.Services.TaxService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TaxService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TaxService.SaveTaxCode(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TaxService.GetTaxByCodeId(System.Int64,System.Int64,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TaxService.GetAllTaxCode(System.Int64,System.Int64,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TaxService.GetTaxByCode(System.Int64,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="taxCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TerritoryService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TerritoryService.GetTerritory(System.String,System.String,System.String,System.Nullable{System.Int32},System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Name"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TerritoryService.GetcustomFieldTerritory(System.Int64,System.Int64,System.String,System.String)">
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TrophiesAndBadgesService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TrophiesAndBadgesService.getTrohpiesOrBadges(System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="companyId"></param>
+             <param name="loggedInUserId"></param>
+             <param name="trophyOrBadgeName"></param>
+             <param name="action"></param>
+             <param name="type"></param>
+             <param name="status_Ids"></param>
+             <param name="sortBy"></param>
+             <param name="sortExp"></param>
+             <param name="pageSize"></param>
+             <param name="pageNumber"></param>
+             <param name="langCode"></param>
+             <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TrophiesAndBadgesService.GetcustomFieldgetTrohpiesOrBadges(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode. 
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.TrophiesAndBadgesService.SaveTrophiesAndBadges(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UnifiedService.getExtensionBasedOnStatus(System.String,System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            exntension status like Idle, OnHold, Unavailable etc
+            <param name="extensionStatus"></param>
+            its logged in user id
+            <param name="userId"></param>
+            its logged in company id
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UnifiedService.GetCallDetails(System.Int64,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="logId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UnifiedService.SaveVonageConfiguration(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UnifiedService.SaveVonageWebHook(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UnifiedService.SaveTokBoxConfiguration(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UserService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.UserService.GetAllRoles_Privilege_Allowed(System.Int64,System.Int64,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.VendorService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.VendorService.GetcustomFieldVendor(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Services.WidgetsService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="_configuration"></param>
+        </member>
+        <member name="M:CRMCoreAPI.Services.WidgetsService.getWidgetsList(System.Int64,System.Int64,System.Int64,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="userTypeID"></param>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="langCode"></param>
+            <param name="reportType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IBrandService.GetBrands(System.Int64,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            Get All Brand listing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IBrandService.SaveBrand(System.String,System.Int64,System.Int64)">
+            <summary>
+            Implementation of save lead
+            </summary>
+            <param name="brandData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IContactService.GetcustomFieldContact(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            Used to get custom field that is in custom field table
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IGoodInwardsService.getPurchaseOrderProductDetails(System.Int64,System.Int64,System.Nullable{System.Int64},System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="subModuleCode"></param>
+            <param name="purchaseOrderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IGoodInwardsService.SaveGoodInwards(System.String,System.Int64,System.Int64)">
+            <summary>
+            RECEIVE A JSON STRING 
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.INoteServices.GetNotes(System.Int32,System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="moduleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.INoteServices.saveNote(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.ServiceInterface.IStageService">
+            <summary>
+            Default Lead Interface
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IStageService.GetStages(System.Int64,System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int64,System.String)">
+            <summary>
+            Get All Lead listing
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IStageService.GetcustomFieldStage(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Return the custom fields of table to bind in form on the basis of passed parameters those companyId, moduleName, SubmoduleCode
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <returns>return JSON String  as data</returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IStageService.SaveStage(System.String,System.Int64,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="stageData"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IStageService.ValidateData(System.String)">
+            <summary>
+            Implementation of validation method
+            </summary>
+            <param name="stageData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.ITaxService.SaveTaxCode(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.ITaxService.SaveTax(System.String,System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="postString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.ITaxService.GetTaxByCodeId(System.Int64,System.Int64,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.ITaxService.GetTaxByCode(System.Int64,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="taxCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.ITaxService.GetAllTaxCode(System.Int64,System.Int64,System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="userId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceInterface.IWidgetsService.getWidgetsList(System.Int64,System.Int64,System.Int64,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            <param name="userTypeID"></param>
+            <param name="fromDate"></param>
+            <param name="toDate"></param>
+            <param name="langCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Service.IInvoiceService.GetInvoice(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            sourceId used to get sales order listing according to the mapping with respect to sub module
+            <param name="sourceId"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Service.IInvoiceService.GetcustomFieldInvoice(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="userId"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Service.ISalesOrderService.GetSalesOrder(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int64,System.Int64,System.Nullable{System.Int32},System.String,System.String,System.String,System.Nullable{System.Byte},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int64},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Status"></param>
+            <param name="OrderSubject"></param>
+            <param name="DealName"></param>
+            <param name="SalesOwner"></param>
+            <param name="LeadOwner"></param>
+            <param name="ContactName"></param>
+            <param name="dateFrom"></param>
+            <param name="dateTo"></param>
+            <param name="AccountName"></param>
+            <param name="leadName"></param>
+            <param name="companyId"></param>
+            <param name="loggedInUserId"></param>
+            sourceId used to get sales order listing according to the mapping with respect to sub module
+            <param name="sourceId"></param>
+            <param name="subModuleCode"></param>
+            <param name="sortBy"></param>
+            <param name="sortExp"></param>
+            <param name="isPaged"></param>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Service.ISalesOrderService.GetcustomFieldSalesOrder(System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            This method is used for fetching the custom fields for add form on the 
+            basis of companyId, moduleName and subModuleCode.
+            </summary>
+            <param name="companyId"></param>
+            <param name="moduleName"></param>
+            <param name="subModuleCode"></param>
+            <param name="userId"></param>
+            <returns>Returns the fields in json string format</returns>
+        </member>
+        <member name="M:CRMCoreAPI.Common.CommonClass.Encrypt(System.String)">
+            <summary>
+            For encrypting the string using System.Security.CryptoGraphy
+            </summary>
+            <param name="clearText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.Common.CommonClass.Decrypt(System.String)">
+            <summary>
+            For decrypting the string using System.Security.CryptoGraphy
+            </summary>
+            <param name="cipherText"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.ServiceModels.DataEntry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CRMCoreAPI.ServiceModels.DataEntry.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CRMCoreAPI.ServiceModels.DataEntry.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CRMCoreAPI.ServiceModels.DataEntry.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CRMCoreAPI.ServiceModels.DataEntry.Metadata">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CRMCoreAPI.ServiceModels.DynamicDataEntry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceModels.DynamicDataEntry.#ctor(CRMCoreAPI.ServiceModels.DataEntry,System.Collections.Generic.IDictionary{System.String,System.Type})">
+            <summary>
+            
+            </summary>
+            <param name="entry"></param>
+            <param name="schema"></param>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceModels.DynamicDataEntry.GetDynamicMemberNames">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRMCoreAPI.ServiceModels.DynamicDataEntry.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">
+            <summary>
+            
+            </summary>
+            <param name="binder"></param>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CRMCoreAPI.ServiceModels.RequestFrom">
+            <summary>
+             STRFRT,// If User Register from store Front
+               SPRADMN,// If Superadmin creates a new company
+               CLNTASCA,// If Client Want to be a CA
+              TRLTOPAID, // If User moves from free trial to paid
+               REACTVT // If user reactivate his company
+            </summary>
+        </member>
+        <member name="T:CRMCoreAPI.ServiceModels.IntegrationType">
+            <summary>
+            Sukhdeep Kambo 
+            Created on: May 02, 2016 
+            Used to define the type of the integration
+            </summary>
+        </member>
+        <member name="T:CoreAPI.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreAPI.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CoreAPI.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CoreAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            // This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CoreAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+        <member name="F:TALYGEN.Privileges._configuration">
+            <summary>
+            Created By Rakesh kumar \n Created On:06/02/2019 11:15:00 AM
+            Purpose: GetUser role privileges
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:TALYGEN.Privileges.#ctor(Microsoft.Extensions.Configuration.IConfiguration,CRMCoreAPI.Services.IUserService)">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="M:TALYGEN.Privileges.GetAllRoles(System.Int64,System.Nullable{System.Int64},System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Created By:Rakesh kumar
+            Created On:06/02/2019
+            Desc: GetUser role=client
+            </summary>
+            <param name="userId"></param>
+            <param name="company_id"></param>
+            <param name="usertype"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TALYGEN.RoleClass">
+            <summary>
+            Custom Class to contains all roles of a user
+            </summary>
+        </member>
+    </members>
+</doc>

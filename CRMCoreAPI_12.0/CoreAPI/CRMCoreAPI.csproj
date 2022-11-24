@@ -1,0 +1,73 @@
+﻿	<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\netcoreapp2.1\</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp2.1\CoreAPI.xml</DocumentationFile>
+    <DefineConstants>DEBUG</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ExpenseController.cs" />
+    <Compile Remove="ServiceInterface\IExpenseServices.cs" />
+    <Compile Remove="ServiceInterface\ILeadNoteService.cs" />
+    <Compile Remove="ServiceInterface\INoteService.cs" />
+    <Compile Remove="ServiceModels\ExpenseItems.cs" />
+    <Compile Remove="Services\CloudHelpers.cs" />
+    <Compile Remove="Services\ExpenseServices.cs" />
+    <Compile Remove="Services\LeadNoteService.cs" />
+    <Compile Remove="Services\NoteService.cs" />
+  </ItemGroup>
+<ItemGroup>
+  <Reference Include="commonlibrary">
+    <HintPath>Library\commonlibrary.dll</HintPath>
+  </Reference>
+  <Reference Include="Talygen.Azure">
+    <HintPath>Library\Talygen.Azure.dll</HintPath>
+  </Reference>
+  <Reference Include="Talygen.Subscription">
+    <HintPath>Library\Subscription.dll</HintPath>
+  </Reference>
+</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="1.6.10.7" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.3" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Notifications">
+      <HintPath>Library\Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Resources">
+      <HintPath>Library\Resources.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
